@@ -61,7 +61,7 @@ xlabel('Frequency in Hz');
 ylabel('Magnitude');
 title('Noisy Signal in frequency domain');
 %%
-FIR_1=filter(FIR_100,signalNoise); %FIR FILTER OF ORDER 300 For filtering frequencies of 20KHz to 70KHz
+FIR_1=filter(FIR_100,signalNoise); %FIR FILTER OF ORDER 100 For filtering frequencies of 20KHz to 70KHz
 P=fft(FIR_1,fs);
 subplot(3,1,3);
 plot(abs(P));
@@ -85,8 +85,8 @@ xlabel('Frequency in Hz');
 ylabel('Magnitude');
 title('FIR FILTERs  Noisy Signal in frequency domain');
 %%
-FIR_3=filter(FIR_300,signalNoise);
-FIR_FFT_300=fft(FIR_3,fs);
+FIR_3=filter(FIR_300,signalNoise);%FIR FILTER OF ORDER 300 For filtering frequencies of 20KHz to 70KHz
+FIR_FFT_300=fft(FIR_3,fs); 
 % P=fft(y,fs);
 subplot(3,1,3);
 plot(abs(FIR_FFT_300));
