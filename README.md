@@ -7,6 +7,7 @@ The FIR filter was designed using the Bartlett Hann Window technique with an ord
 After designing both filters, the corrupted signal was filtered using each filter, and the results were plotted to evaluate their performance. A comparative analysis of both the FIR and IIR filter designs was performed based on their computational efficiency, filter order, and filtering performance. Finally, a detailed report of the findings was prepared, which included the analysis of the corrupted signal, the design and implementation of the filters, and the evaluation of their performance in removing the AWGN from the signal.
 
 Overall, this engineering problem demonstrated the effectiveness of using FIR and IIR filters to remove unwanted noise from a corrupted signal in wireless communication. By designing suitable filters with appropriate cutoff frequencies, unwanted noise can be removed, and the original signal can be extracted. The comparative analysis of both FIR and IIR filters helps to choose the optimal filter based on their performance and efficiency.
+
 --------------------------------------------------------------------------------------------
 
 1.Created four signals x1, x2, x3 and x4 having frequencies f1, f2, f2 and f4.
